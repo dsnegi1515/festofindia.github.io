@@ -1,0 +1,134 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.heading {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="heading" style="background-color:tomato;">
+  <p style= "color: white; font-size: 100px">
+  <img src = "dussehra1.png" style="width:200px; height:150px;">
+  Dusherra
+  <img src = "dussehra1.png" style="width:200px; height:150px;">
+</div>
+
+<div class="topnav" style="background-color:lightgreen; color= White">
+  <p style= "font-size:30px;">
+  <a href="index.Html">Home Page</a>
+  <a href="Diwali.Html">Diwali</a>
+  <a href="Holi.Html">Holi</a>
+</p>
+</div>
+
+
+  <div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "dussehra1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;">A celebration that occurs on the tenth day of the Shukla Paksha of Ashwin month is called Dussehra. Dussehra is like a grand finale to the ten days long celebration of Navaratri. People on this day reenact the play of Ramayana, and the drama ends with the person who is playing the role of Lord Rama, burning the massive effigy of Ravana. Children, along with adults, visit ‘Melas,’ which is the Hindi for fairs.
+    </p>
+    <p  style="color:white;">The festival of Dussehra makes a massive contribution to the economy of India as well because the people who are involved in the preparations of pandals, statue and idol makers, decorators, the small local shop and stall owners, the pundits, the theatre people, etc. all get an opportunity of work for this festival.
+    </p>
+  </div>
+  
+  <div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "dussehra1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  <div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "dussehra1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;"> The government of India takes the responsibility of cleaning the areas and initiating high security during the celebration. Not everyone is lucky to spend time with their family and relax on Dussehra because some have to work mandatorily to feed their family, some people are far away from home, and many families are way too unfortunate than us.</p>
+    <p  style="color:white;">We should contribute whatever little can, and we must remember to bring joy to everyone, including the poor because they also deserve to celebrate in festivals. A small donation, a new dress, gifts, or giving chocolates on Dussehra to those who are less fortunate than us can bring a smile on their face and cheer them up to take part in enjoying the occasion.</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+  </div>
+  <div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "dussehra1.png" 
+      Height = 200 width = 300></p>
+
+</div>
+
+</body>
+</html>

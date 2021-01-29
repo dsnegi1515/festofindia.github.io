@@ -1,0 +1,141 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.heading {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="heading" style="background-color:tomato;">
+  <p style= "color: white; font-size: 100px">
+  <img src = "pichkari1.png" style="width:200px; height:150px;">
+  Holi
+  <img src = "pichkari1.png" style="width:200px; height:150px;">
+</div>
+
+<div class="topnav" style="background-color:lightgreen; color= white">
+  <p style= "font-size:30px;">
+  <a href="index.Html">Home Page</a>
+  <a href="Dusherra.Html">Dusherra</a>
+  <a href="Diwali.Html">Diwali</a>
+</p>
+</div>
+</p>
+  </div>
+  <div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;">Holi, the celebration of hues, marks the onset of goodness, prosperity and positivity with spring every year. According to the faith and legends of Hinduism, different parts of India find a different significance in their “festival of colors”.
+    </p>
+    <p  style="color:white;">Some parts believe Holi is meant to cherish the love between Radha and Krishna while others take this opportunity to rejoice the defeat of evils within and around us. For many others, Holi is a period of pure love, forgiveness and fulfilment.</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+</div>
+<div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;">The festival spreads over three days starting with “Holika Dahan”- the full moon night when rituals and offerings are performed near a bonfire to destroy the inner and outer evils residing in this world. This is followed by Choti Holi and the third day of Rangwali Holi when people across the country indulge in the festivities of colour.</p>
+    <p  style="color:white;">Holi comes with a chance to forgive, to mend broken bonds and to love again through the exchange of food, sweets, colors, embraces and smiles. Friends and relatives visit each other on this auspicious day to seek blessings and spread happiness.</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+</div>
+<div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;">While different parts of the country find different methods to enhance the excitement of Holi, irresponsibility and the use of artificial colors and intoxicants only bring down the spirit of the festival meant to splash happiness and hues.</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+  <p  style="color:white;"><IMG SRC = "pichkari1.png" 
+      Height = 200 width = 300></p>
+  </div>
+</div>
+  
+</body>
+</html>

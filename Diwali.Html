@@ -1,0 +1,132 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.heading {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="heading" style="background-color:tomato;">
+  <p style= "color: white; font-size: 100px">
+  <img src = "deepawali1.png" style="width:200px; height:150px;">
+  deepawali
+  <img src = "deepawali1.png" style="width:200px; height:150px;">
+</div>
+
+<div class="topnav" style="background-color:lightgreen; color= white">
+  <p style= "font-size:30px;">
+  <a href="index.Html">Home Page</a>
+  <a href="Dusherra.Html">Dusherra</a>
+  <a href="Holi.Html">Holi</a>
+</p>
+</div>
+
+<div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "deepawali1.png" 
+      Hieght = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;">While different parts of the country find different methods to enhance the excitement of Holi, irresponsibility and the use of artificial colors and intoxicants only bring down the spirit of the festival meant to splash happiness and hues.</p>
+    <p  style="color:white;">Festivals have been made to reinforce strong bonds between families and friends, and Diwali is the best example. Everyone goes home for Diwali and celebrates it with their families. It is a national holiday, so everyone enjoys the festival without worrying about work.</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "deepawali1.png" 
+      Hieght = 200 width = 300></p>
+  </div>
+  <div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "deepawali1.png" 
+      Hieght = 200 width = 300></p>
+  </div>
+  
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;"> It gets more exciting at night because lots of sky-lanterns are released into the air that flies high and lights up the night sky. Diwali teaches us to be patient for good things in life.
+
+</p>
+    <p  style="color:white;">Children keep waiting for many days to enjoy that bite of their favourite sweet. The houses are thoroughly cleaned to clean them of dirt. Cleanliness is very important as it would determine your wellness and health. It has been a part of Hindu culture for a very long time and fosters the moral lesson of “Good people always win over bad ones.
+
+</p>
+  </div>
+  
+  <div class="column side" style="background-color:orange; color= white">
+    <p  style="color:white;"><IMG SRC = "deepawali1.png" 
+      Hieght = 200 width = 300></p>
+  </div>
+
+
+</div>
+  
+</body>
+</html>

@@ -1,0 +1,143 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.heading {
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+   background-color: lightpink;
+  width: 500px;
+  height:600px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background: rgba(0, 128, 0, 0.1);
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<div class="heading" style="background-color:tomato;">
+  <p style= "color: white; font-size: 100px">
+  <img src = "festival.png" style="width:250px; height:200px;">
+  Festivals In India 
+
+  <img src = "festival.png" style="width:250px; height:200px;">
+</div>
+
+<div class="topnav" style="background-color:lightpink; color: lightblue;">
+  <p style= "font-size:30px;">
+  <a href="Diwali.Html">Diwali</a>
+  <a href="Dusherra.Html">Dusherra</a>
+  <a href="Holi.Html">Holi</a>
+  </p>
+</div>
+
+
+
+<div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p><IMG SRC = "dussehra1.png" height = 200 width = 300></p>
+  </div>
+
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;"> There are many festivals in India , but most popular festivals are Holi , Diwali and Dushhera. These festivals have different storys and also are divided in days. Like Diwali is divided in 5 days
+    First day is Dhan Teras , Second day is Bhai Dooj Third day is Chhoti Diwali Forth day is Diwali Last but not the least is Goverdhan Pooja. </p>
+  </div>  
+
+<div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p> <IMG SRC = "deepawali1.png" height = 200 width= 300></p>
+  </div>
+</div>
+</div>
+
+
+<div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p><IMG SRC = "pichkari1.png" height = 200 width = 300></p>
+  </div>
+
+  <div class="column middle" style="background-color:green; color= white">
+    <p  style="color:white;"> There are many festivals in India , but most popular festivals are Holi , Diwali and Dushhera. These festivals have different storys and also are divided in days. Like Diwali is divided in 5 days
+    First day is Dhan Teras , Second day is Bhai Dooj Third day is Chhoti Diwali Forth day is Diwali Last but not the least is Goverdhan Pooja. </p>
+  </div>  
+
+<div class="row" style="background-color:yellow; color= white">
+  <div class="column side"  style="background-color:orange; color= white">
+    <p> <IMG SRC = "rakhi.png" height = 200 width=300></p>
+  </div>
+</div>
+</div>
+
+  
+</body>
+</html>
